@@ -8,8 +8,8 @@ import project2 from "../../public/images/projects/ANPR.jpg";
 import project3 from "../../public/images/projects/tour.jpg";
 import project4 from "../../public/images/projects/dashboard.png";
 import project5 from "../../public/images/projects/weather.png";
-import project6 from "../../public/images/projects/gsap.png";
-import project7 from "../../public/images/projects/poster.jpg";
+import project6 from "../../public/images/projects/GSAP.png";
+import project7 from "../../public/images/projects/Poster.jpg";
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
