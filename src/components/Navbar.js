@@ -170,27 +170,11 @@ const Navbar = () => {
               className=""
               toggle={handleclick}
             />
-
-            <CustomMobileLink
-              href="/awards"
-              title="Awards"
-              className=""
-              toggle={handleclick}
-            />
           </nav>
 
           <nav className="flex items-center justify-center mt-2">
             <motion.a
-              href="https://twitter.com"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-9 mr-3 sm:mx-1"
-            >
-              <TwitterIcon />
-            </motion.a>
-            <motion.a
-              href="https://github.com"
+              href="https://github.com/Yashmehta2"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -199,7 +183,7 @@ const Navbar = () => {
               <GithubIcon />
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/yash-mehta294"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -207,24 +191,7 @@ const Navbar = () => {
             >
               <LinkedInIcon />
             </motion.a>
-            <motion.a
-              href="https://pinterest.com"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-9 mx-3 sm:mx-1"
-            >
-              <PinterestIcon />
-            </motion.a>
-            <motion.a
-              href="https://dribbble.com"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-9 ml-3 sm:mx-1"
-            >
-              <DribbbleIcon />
-            </motion.a>
+
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
               className={`ml-3 flex items-center justify-center rounded-full p-1 ${
