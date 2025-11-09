@@ -52,38 +52,44 @@ const Experience = () => {
           />
           <ul className="w-full flex flex-col justify-between items-start ml-4">
             <Details
-              position="Wordpress Developer Intern"
-              companyLink="https://i-solarlite.com/"
-              company="Sonne Energies PVT. LTD"
-              time="January 2022 – June 2022"
-              address="Mumbai, India"
-              work="Designed user interfaces and user experiences for various web and mobile applications. Conducted user testing and iterated on designs for improved usability."
+              position="Software Engineer Intern"
+              companyLink="https://www.faishion.ai/"
+              company="fAIshion"
+              time="September 2025 – Present"
+              address="San Francisco, California"
+              work="Buildling AI system for virtual try-on and recommendation system to make shopping easier."
             />
             <Details
-              position="Frontend Developer Intern"
+              position="Software Engineer"
+              companyLink="https://professionalstudies.syracuse.edu/academics/iconsult-collaborative-at-syracuse-university/"
+              company="iConsult Collaborative at Syracuse University"
+              time="March 2025 – Present"
+              address="Syracuse, New York"
+              work="Building Clique — an exclusive community connecting student-athletes with pro-athletes to foster mentorship, deal flow, and entrepreneurial growth."
+            />
+            <Details
+              position="Frontend Developer Intern, Lead Role"
+              companyLink="https://playtoon.it.com/"
+              company="Playtoon it, inc."
+              time="May 2025 – August 2025"
+              address="New York"
+              work="Frontend Development Intern delivering responsive UIs, robust RESTful APIs, and scalable server-side logic with React.js, Node.js, and Express."
+            />
+            <Details
+              position="Software Developer Intern"
               companyLink="https://www.openspaceservices.com/"
               company="Openspace services PVT. LTD"
               time="May 2023 – November 2023"
               address="Mumbai, India"
               work="Led the development of responsive and user-friendly web applications, collaborating closely with designers and back-end developers to deliver high-quality products."
             />
-
             <Details
-              position="Software Developer"
-              companyLink="https://professionalstudies.syracuse.edu/academics/iconsult-collaborative-at-syracuse-university/"
-              company="iConsult Collaborative"
-              time="March 2025 – Present"
-              address="Syracuse, New York"
-              work="Building Clique — an exclusive community connecting student-athletes with pro-athletes to foster mentorship, deal flow, and entrepreneurial growth."
-            />
-
-            <Details
-              position="Full-Stack Developer Intern"
-              companyLink="https://playtoon.it.com/"
-              company="Playtoon it, inc."
-              time="May 2025 – Present"
-              address="New York"
-              work="Full-Stack Development Intern delivering responsive UIs, robust RESTful APIs, and scalable server-side logic with React.js, Node.js, and Express."
+              position="Web Developer Intern (Wordpress)"
+              companyLink="https://i-solarlite.com/"
+              company="Sonne Energies PVT. LTD"
+              time="January 2022 – June 2022"
+              address="Mumbai, India"
+              work="Designed user interfaces and user experiences for various web and mobile applications. Conducted user testing and iterated on designs for improved usability."
             />
           </ul>
         </div>
