@@ -53,12 +53,13 @@ const Experience = () => {
           <ul className="w-full flex flex-col justify-between items-start ml-4">
             <Details
               position="Software Engineer Intern"
-              companyLink="https://www.faishion.ai/"
-              company="fAIshion"
-              time="September 2025 – Present"
-              address="San Francisco, California"
-              work="Buildling AI system for virtual try-on and recommendation system to make shopping easier."
+              companyLink="https://www.medlaunchconcepts.com/"
+              company="Medlaunch Concepts"
+              time="January 2026 – Present"
+              address="United States"
+              work="Building software solutions for Accreditors and Hospital Systems."
             />
+
             <Details
               position="Software Engineer"
               companyLink="https://professionalstudies.syracuse.edu/academics/iconsult-collaborative-at-syracuse-university/"
@@ -66,6 +67,14 @@ const Experience = () => {
               time="March 2025 – Present"
               address="Syracuse, New York"
               work="Building Clique — an exclusive community connecting student-athletes with pro-athletes to foster mentorship, deal flow, and entrepreneurial growth."
+            />
+            <Details
+              position="Software Engineer Intern"
+              companyLink="https://www.faishion.ai/"
+              company="fAIshion Inc."
+              time="September 2025 – December 2025"
+              address="San Francisco, California"
+              work="Buildling AI system for virtual try-on and recommendation system to make shopping easier."
             />
             <Details
               position="Frontend Developer Intern, Lead Role"
