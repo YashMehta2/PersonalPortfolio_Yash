@@ -3,22 +3,26 @@ import { GithubIcon } from "@/components/Icons";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project1 from "../../public/images/projects/logo.png";
-import project2 from "../../public/images/projects/ANPR.jpg";
-import project3 from "../../public/images/projects/tour.jpg";
-import project4 from "../../public/images/projects/dashboard.png";
-import project5 from "../../public/images/projects/weather.png";
-import project6 from "../../public/images/projects/GSAP.png";
-import project7 from "../../public/images/projects/Poster.jpg";
+import project1 from "../../public/images/projects/pedeprotect.png";
+import groceryProject from "../../public/images/projects/grocery.png";
+import gsapProject from "../../public/images/projects/gsap_showcase.png";
+import travelProject from "../../public/images/projects/travel.png";
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
-    <article className="w-full flex items-center justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 relative rounded-br-2xl dark:bg-dark dark:border-light">
-      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl dark:bg-light" />
+    <article className="w-full flex items-center justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 relative rounded-br-2xl dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4">
+      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl dark:bg-light xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]" />
 
-      <Image src={img} alt={title} className="w-full h-auto" />
+      <div className="w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full">
+        <Image
+          src={img}
+          alt={title}
+          className="w-full h-auto hover:scale-105 transition-all duration-300"
+          priority
+        />
+      </div>
 
-      <div className="w-1/2 flex flex-col items-start justify-between pl-6">
+      <div className="w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6">
         <span className="text-primary font-medium text-xl dark:text-primaryDark">
           {type}
         </span>
@@ -32,44 +36,55 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
           <Link href={github} target="_blank" className="w-10">
             <GithubIcon />
           </Link>
-          {/* <Link
+          <Link
             href={link}
             target="_blank"
             className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark"
           >
             Visit Project
-          </Link> */}
+          </Link>
         </div>
       </div>
     </article>
   );
 };
 
-const Projects = ({ type, title, img, link, github }) => {
+const Projects = ({ type, title, summary, img, link, github }) => {
   return (
-    <article className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-light p-6 relative dark:bg-dark dark:border-light">
+    <article className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-light p-6 relative dark:bg-dark dark:border-light h-full">
       <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-light" />
 
-      <Image src={img} alt={title} className="w-full h-auto" />
+      <div className="w-full cursor-pointer overflow-hidden rounded-lg aspect-[16/10]">
+        <Image
+          src={img}
+          alt={title}
+          className="w-full h-full object-cover hover:scale-105 transition-all duration-300"
+        />
+      </div>
 
-      <div className="w-full flex flex-col items-start justify-between mt-4">
+      <div className="w-full flex flex-col items-start justify-between mt-4 flex-grow">
         <span className="text-primary font-medium text-xl dark:text-primaryDark">
           {type}
         </span>
 
         <h2 className="my-2 w-full text-left text-3xl font-bold">{title}</h2>
+        <p className="my-2 font-medium text-dark dark:text-light text-sm line-clamp-3">
+          {summary}
+        </p>
 
-        <div className=" flex items-center justify-between w-full">
-          {/* <Link
-            href={link}
-            target="_blank"
-            className="ml-4 text-lg font-semibold underline"
-          >
-            Visit
-          </Link> */}
+        <div className="mt-auto flex items-center justify-between w-full">
           <Link href={github} target="_blank" className="w-8">
             <GithubIcon />
           </Link>
+          {link && (
+            <Link
+              href={link}
+              target="_blank"
+              className="text-lg font-semibold underline"
+            >
+              Visit
+            </Link>
+          )}
         </div>
       </div>
     </article>
@@ -98,86 +113,41 @@ const Project = () => {
                 title="PedeProtect"
                 img={project1}
                 summary="PedeProtect is built that introduces an innovative solution utilizing key technologies like image processing, machine learning, deep learning and web development to build the platform PedeProtect. This platform promotes rapid identification of the problems faced by pedestrians on the footpaths."
-                link="/"
+                link="https://pede-protect.vercel.app/user/main"
                 github="/"
                 type="Featured Project"
               />
             </div>
             <div className="col-span-6">
               <Projects
-                title="Otto-Poster Competition Winner"
-                img={project7}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
+                title="AI Grocery Price Aggregator – U.S. Edition"
+                img={groceryProject}
+                summary="Built a full-stack AI-driven application that aggregates and compares grocery prices across U.S. retailers. Implemented a FastAPI backend with OpenAI-powered query processing and a Next.js frontend for real-time search and price comparison."
+                link="https://grocery-price-aggregator.onrender.com/docs"
+                github="https://github.com/YashMehta2/Grocery-price-aggregator"
+                type="Full Stack AI"
+              />
+            </div>
+            <div className="col-span-6">
+              <Projects
+                title="Advanced GSAP Animation Showcase"
+                img={gsapProject}
+                summary="Created a collection of high-performance, interactive web animations using GSAP. Focused on smooth scroll effects, timeline control, and optimized rendering to enhance user experience."
                 link=""
-                github="https://github.com/YashMehta2/GRAD_Part1.git"
-                type="Featured Project"
+                github="https://github.com/YashMehta2/GSAP_Animations"
+                type="Frontend Animation"
               />
             </div>
             <div className="col-span-6">
               <Projects
-                title="Automatic Number Plate Recognition System"
-                img={project2}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-                link=""
-                github="https://github.com/YashMehta2/ANPR_Project.git"
-                type="Featured Project"
+                title="Tours & Travel Booking System"
+                img={travelProject}
+                summary="Designed and developed a front-end travel booking website allowing users to explore destinations, view packages, and make reservations. Implemented dynamic content rendering and backend integration using PHP and MySQL."
+                link="https://tour-and-travels-website.vercel.app/"
+                github="https://github.com/YashMehta2/Tour_and_Travels_Website"
+                type="Full Stack Web"
               />
             </div>
-            <div className="col-span-6">
-              <Projects
-                title="Tour And Travel Website"
-                img={project3}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-                link="/"
-                github="https://github.com/YashMehta2/Tour_and_Travels_Website.git"
-                type="Featured Project"
-              />
-            </div>
-            <div className="col-span-6">
-              {" "}
-              <Projects
-                title="GSAP-Animations"
-                img={project6}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-                link="/"
-                github="https://github.com/YashMehta2/GSAP_Animations.git"
-                type="Featured Project"
-              />
-            </div>
-
-            <div className="col-span-6">
-              <Projects
-                title="Weather Prediction Using CNN/RNN"
-                img={project5}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-                link="/"
-                github="https://github.com/YashMehta2/CNN_RNN_Weather.git"
-                type="Featured Project"
-              />
-            </div>
-            <div className="col-span-6">
-              <Projects
-                title="Graphs In React.js"
-                img={project4}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-                link="/"
-                github="https://github.com/YashMehta2/React_Graphs.git"
-                type="Featured Project"
-              />
-            </div>
-            <div className="col-span-12"></div>
           </div>
         </div>
       </main>

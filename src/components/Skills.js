@@ -29,35 +29,41 @@ const Skills = () => {
           Technical Skills
         </motion.div>
         {/* Name on the Div, the position of that Div when the div is in view */}
-        <Skill name="HTML+CSS" x="-25vw" y="2vw" />
-        {/* Name on the Div, the position of that Div when the div is in view */}
-        <Skill name="Wordpress" x="-5vw" y="-10vw" />
-        {/* Name on the Div, the position of that Div when the div is in view */}
-        <Skill name="Javascript" x="20vw" y="6vw" />
-        {/* Name on the Div, the position of that Div when the div is in view */}
-        <Skill name="ReactJS" x="0vw" y="12vw" />
-        {/* Name on the Div, the position of that Div when the div is in view */}
-        <Skill name="NextJS" x="-20vw" y="-15vw" />
-        {/* Name on the Div, the position of that Div when the div is in view */}
-        <Skill name="React Native" x="15vw" y="-12vw" />
-        {/* Name on the Div, the position of that Div when the div is in view */}
-        <Skill name="Python" x="32vw" y="-5vw" />
-        {/* Name on the Div, the position of that Div when the div is in view */}
-        <Skill name="SQL" x="0vw" y="-20vw" />
-        {/* Name on the Div, the position of that Div when the div is in view */}
-        <Skill name="Node.js" x="-25vw" y="18vw" />
-        {/* Name on the Div, the position of that Div when the div is in view */}
-        <Skill name="FlutterFlow" x="18vw" y="18vw" />
-        <Skill name="Git" x="0vw" y="18vw" />
-        <Skill name="Chart.js" x="-10vw" y="-18vw" />
-        <Skill name="Tableau" x="-10vw" y="-5vw" />
-        <Skill name="C/C++" x="-10vw" y="5vw" />
-        <Skill name="TypeScript" x="10vw" y="5vw" />
-        <Skill name="GSAP" x="-10vw" y="5vw" />
-        <Skill name="AWS" x="10vw" y="-5vw" />
-        <Skill name="Postman" x="0vw" y="-15vw" />
-        <Skill name="Flask" x="-15vw" y="-12vw" />
-        <Skill name="Slack" x="-32vw" y="-5vw" />
+        <Skill name="HTML" x="-18vw" y="2vw" />
+        <Skill name="CSS" x="-18vw" y="-5vw" />
+        <Skill name="Javascript" x="15vw" y="8vw" />
+        <Skill name="React.js" x="0vw" y="10vw" />
+        <Skill name="Next.js" x="-20vw" y="-12vw" />
+        <Skill name="Tailwind CSS" x="12vw" y="-14vw" />
+        <Skill name="TypeScript" x="25vw" y="0vw" />
+        <Skill name="React Native" x="0vw" y="-14vw" />
+        <Skill name="Node.js" x="-12vw" y="14vw" />
+        <Skill name="FastAPI" x="18vw" y="18vw" />
+        <Skill name="Python" x="0vw" y="18vw" />
+        <Skill name="SQL" x="-10vw" y="-14vw" />
+        <Skill name="Firebase" x="-6vw" y="-6vw" />
+        <Skill name="AWS" x="9vw" y="-4vw" />
+        <Skill name="Docker" x="20vw" y="-10vw" />
+        <Skill name="Git" x="0vw" y="-5vw" />
+        <Skill name="GitHub" x="9vw" y="-10vw" />
+        <Skill name="Postman" x="-14vw" y="-10vw" />
+        <Skill name="Redux" x="-26vw" y="0vw" />
+        <Skill name="GSAP" x="12vw" y="0vw" />
+        <Skill name="Framer Motion" x="24vw" y="6vw" />
+        <Skill name="Angular" x="-12vw" y="8vw" />
+        <Skill name="Bootstrap" x="-24vw" y="6vw" />
+        <Skill name="Vite" x="8vw" y="8vw" />
+        <Skill name="Wordpress" x="0vw" y="-10vw" />
+        <Skill name="cPanel" x="-14vw" y="4vw" />
+        <Skill name="FlutterFlow" x="20vw" y="2vw" />
+        <Skill name="Jira" x="0vw" y="14vw" />
+        <Skill name="Chart.js" x="-8vw" y="12vw" />
+        <Skill name="D3.js" x="10vw" y="18vw" />
+        <Skill name="Tableau" x="25vw" y="-8vw" />
+        <Skill name="PHP" x="-18vw" y="-18vw" />
+        <Skill name="RESTful APIs" x="18vw" y="-18vw" />
+        <Skill name="Power Automate" x="-26vw" y="18vw" />
+        <Skill name="SCRUM" x="26vw" y="18vw" />
       </div>
     </>
   );

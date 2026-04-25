@@ -11,6 +11,7 @@ import Skills from "@/components/Skills";
 import Articles from "@/components/articles";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
+import Testimonials from "@/components/Testimonials";
 
 const AnimatedNumber = ({ value }) => {
   const ref = useRef(null);
@@ -127,6 +128,7 @@ const about = () => {
           </div>
           <Skills />
           <Experience />
+          <Testimonials />
           <Education />
           {/* <Articles /> */}
         </Layout>
