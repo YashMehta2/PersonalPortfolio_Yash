@@ -28,7 +28,7 @@ const TestimonialCard = ({ name, role, review, title, date, index }) => {
       <div className="flex flex-col flex-grow">
         <h4 className="font-bold text-lg mb-2 text-primary dark:text-primaryDark">{title}</h4>
         <p className="font-medium text-dark dark:text-light text-sm italic mb-4">
-          "{review}"
+          &quot;{review}&quot;
         </p>
       </div>
 

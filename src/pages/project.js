@@ -91,7 +91,7 @@ function Oss() {
       window.removeEventListener("resize", handleResize);
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [scrollYProgress]);
   return (
     <>
       <Head>
