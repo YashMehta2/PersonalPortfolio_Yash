@@ -7,6 +7,8 @@ import project1 from "../../public/images/projects/pedeprotect.png";
 import groceryProject from "../../public/images/projects/grocery.png";
 import gsapProject from "../../public/images/projects/gsap_showcase.png";
 import travelProject from "../../public/images/projects/travel.png";
+import agenticScraper from "../../public/images/projects/agentic-scraper.png";
+
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
@@ -146,6 +148,16 @@ const Project = () => {
                 link="https://tour-and-travels-website.vercel.app/"
                 github="https://github.com/YashMehta2/Tour_and_Travels_Website"
                 type="Full Stack Web"
+              />
+            </div>
+            <div className="col-span-6">
+              <Projects
+                title="Self-Improving Agentic Web Scraper"
+                img={agenticScraper}
+                summary="Developed an autonomous web scraping system powered by Agentic AI. The agent iteratively refines its scraping strategies by detecting failures, reasoning about remediation, and self-correcting without human intervention."
+                link=""
+                github="https://github.com/YashMehta2/Agentic-Scraper-Backend"
+                type="Agentic AI / Backend"
               />
             </div>
           </div>
