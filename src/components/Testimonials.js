@@ -1,16 +1,8 @@
-import React, { useRef } from "react";
-import { motion, useInView } from "framer-motion";
+import React from "react";
 
-const TestimonialCard = ({ name, role, review, title, date, index }) => {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
-
+const TestimonialCard = ({ name, role, review, title, date }) => {
   return (
-    <motion.div
-      ref={ref}
-      initial={{ opacity: 0, y: 50 }}
-      animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
-      transition={{ duration: 0.5, delay: index * 0.2 }}
+    <div
       className="w-full flex flex-col items-start justify-between rounded-2xl border border-solid border-dark bg-light p-8 relative dark:bg-dark dark:border-light h-full"
     >
       <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-light" />
@@ -35,7 +27,7 @@ const TestimonialCard = ({ name, role, review, title, date, index }) => {
       <div className="mt-auto pt-4 border-t border-dark/10 dark:border-light/10 w-full">
         <p className="text-sm font-bold">{role}</p>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

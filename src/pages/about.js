@@ -70,7 +70,7 @@ const about = () => {
                 ))}
               </h2>
               <p className="font-medium xs:text-xl">
-                Hi, I am Yash Mehta, a software developer with a passion for
+                Hi, I am Yash Mehta, a software engineer with a passion for
                 creating beautiful, functional, and user-centered digital
                 experiences. With 2 years of experience in the field. I am
                 always looking for new and innovative ways to bring my clients

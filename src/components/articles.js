@@ -34,32 +34,32 @@ const Articles = () => {
     {
       type: "Mumbai",
       time: "2019",
-      info: "In Mumbai, I began my journey as a web developer. This bustling metropolis provided me with a solid foundation in web development. I worked on various projects, honing my skills in HTML, CSS, and JavaScript, and learned the importance of creating seamless user experiences.",
+      info: "In Mumbai, I began my journey as a software engineer. This bustling metropolis provided me with a solid foundation in software engineering. I worked on various projects, honing my skills in HTML, CSS, and JavaScript, and learned the importance of creating seamless user experiences.",
     },
     {
       type: "Delhi",
       time: "2020",
-      info: "My next stop was Delhi, where I continued to grow as a web developer. In this vibrant city, I delved deeper into front-end technologies, particularly React.js. I collaborated with diverse teams on projects ranging from e-commerce platforms to corporate websites, gaining valuable experience in building dynamic web applications.",
+      info: "My next stop was Delhi, where I continued to grow as a software engineer. In this vibrant city, I delved deeper into front-end technologies, particularly React.js. I collaborated with diverse teams on projects ranging from e-commerce platforms to corporate websites, gaining valuable experience in building dynamic web applications.",
     },
     {
       type: "USA",
       time: "2021",
-      info: "My journey took me to the United States, a hub of innovation in web development. Here, I had the privilege of working on cutting-edge web applications, implementing advanced features, and ensuring cross-browser compatibility. Collaborating closely with design teams, I contributed to creating visually stunning and functional websites.",
+      info: "My journey took me to the United States, a hub of innovation in software engineering. Here, I had the privilege of working on cutting-edge web applications, implementing advanced features, and ensuring cross-browser compatibility. Collaborating closely with design teams, I contributed to creating visually stunning and functional websites.",
     },
     {
       type: "Africa",
       time: "2022",
-      info: "In Africa, I embarked on a unique chapter of my web development career. I had the opportunity to work on projects with a global impact, focusing on responsive design and accessibility. It was here that I gained insights into the importance of user-centered design in web development.",
+      info: "In Africa, I embarked on a unique chapter of my software engineering career. I had the opportunity to work on projects with a global impact, focusing on responsive design and accessibility. It was here that I gained insights into the importance of user-centered design in software engineering.",
     },
     {
       type: "Australia",
       time: "2023",
-      info: "Australia was my next destination, where I continued to refine my skills as a web developer. I specialized in optimizing website performance and load times, ensuring a seamless browsing experience for users. Working in a diverse environment, I further expanded my skill set and tackled challenging projects.",
+      info: "Australia was my next destination, where I continued to refine my skills as a software engineer. I specialized in optimizing website performance and load times, ensuring a seamless browsing experience for users. Working in a diverse environment, I further expanded my skill set and tackled challenging projects.",
     },
     {
       type: "Russia",
       time: "2024",
-      info: "My journey concluded in Russia, where I explored new horizons in web development. I dived into the world of web security and data protection, ensuring that websites I worked on were fortified against potential threats. My experience in Russia broadened my perspective on the ever-evolving landscape of web development.",
+      info: "My journey concluded in Russia, where I explored new horizons in software engineering. I dived into the world of web security and data protection, ensuring that websites I worked on were fortified against potential threats. My experience in Russia broadened my perspective on the ever-evolving landscape of software engineering.",
     },
   ];
   return (

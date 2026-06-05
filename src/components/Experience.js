@@ -52,22 +52,22 @@ const Experience = () => {
           />
           <ul className="w-full flex flex-col justify-between items-start ml-4">
             <Details
-              position="Software Engineer Intern"
-              companyLink="https://www.medlaunchconcepts.com/"
-              company="Medlaunch Concepts"
-              time="January 2026 – Present"
-              address="United States"
-              work="Building software solutions for Accreditors and Hospital Systems."
-            />
-
-            <Details
               position="Software Engineer"
               companyLink="https://professionalstudies.syracuse.edu/academics/iconsult-collaborative-at-syracuse-university/"
               company="iConsult Collaborative at Syracuse University"
-              time="March 2025 – Present"
+              time="March 2025 – May 2026"
               address="Syracuse, New York"
               work="Building Clique — an exclusive community connecting student-athletes with pro-athletes to foster mentorship, deal flow, and entrepreneurial growth."
             />
+            <Details
+              position="Software Engineer Intern"
+              companyLink="https://www.medlaunchconcepts.com/"
+              company="Medlaunch Concepts"
+              time="January 2026 – May 2026"
+              address="Clearwater, Florida"
+              work="Building software solutions for Accreditors and Hospital Systems."
+            />
+
             <Details
               position="Software Engineer Intern"
               companyLink="https://www.faishion.ai/"
@@ -81,7 +81,7 @@ const Experience = () => {
               companyLink="https://playtoon.it.com/"
               company="Playtoon it, inc."
               time="May 2025 – August 2025"
-              address="New York"
+              address="Queens, New York"
               work="Frontend Development Intern delivering responsive UIs, robust RESTful APIs, and scalable server-side logic with React.js, Node.js, and Express."
             />
             <Details

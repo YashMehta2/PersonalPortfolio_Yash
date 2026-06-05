@@ -98,16 +98,8 @@ function Oss() {
         <title>Project</title>
       </Head>
       <TransitionEffect />
-      <Layout>
-        <main>
-          <div className={styles.container}>
-            <section>
-              <div className="container">
-                <Project />
-              </div>
-            </section>
-          </div>
-        </main>
+      <Layout className="pt-16">
+        <Project />
       </Layout>
     </>
   );
