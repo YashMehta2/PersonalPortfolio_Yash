@@ -23,16 +23,16 @@ export default function Home() {
             <div className="w-1/2">
               <Image
                 src={profilePic}
-                alt="CodeBucks"
+                alt="Yash Mehta"
                 className="w-full h-auto lg:w-full lg:inline-block md:inline-block md:w-full"
               />
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
                 text="Turning Vision Into Reality With Code And Design."
-                className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl "
+                className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl text-dark dark:text-light"
               />
-              <p className="my-4 text-2xl font-medium">
+              <p className="my-4 text-2xl lg:text-xl md:text-lg sm:text-base font-medium text-dark/75 dark:text-light/75">
                 As a skilled Frontend Software Engineer, I am dedicated to
                 turning ideas into innovative applications. Explore my latest
                 projects and articles, showcasing my expertise in Software
@@ -42,15 +42,15 @@ export default function Home() {
                 <Link
                   href="/Resume-YashMehta.pdf"
                   target={"_blank"}
-                  className="flex items-center xs:text-lg dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light bg-dark text-light p-2.5 px-6 rounded-lg text-4xl hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
+                  className="flex items-center xs:text-base dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light bg-dark text-light p-2.5 px-6 md:px-4 md:p-2 sm:px-3 rounded-lg text-2xl lg:text-xl md:text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark shadow-lg hover:shadow-xl transition-all"
                   download={true}
                 >
-                  Resume <LinkArrow className={"w-8 ml-1 xs:w-5"} />
+                  Resume <LinkArrow className={"w-6 ml-1 sm:w-5 xs:w-4"} />
                 </Link>
                 <Link
                   href="mailto:myash299@gmail.com"
                   target={"_blank"}
-                  className="ml-4 text-4xl font-medium capitalize text-dark underline dark:text-light xs:text-3xl"
+                  className="ml-6 md:ml-4 sm:ml-2 text-2xl lg:text-xl md:text-lg sm:text-base font-semibold capitalize text-dark underline dark:text-light hover:text-primary dark:hover:text-primaryDark transition-colors"
                 >
                   Contact
                 </Link>
@@ -60,7 +60,7 @@ export default function Home() {
         </Layout>
         <Hireme />
         <div className="absolute right-8 bottom-8 inline-block w-24 lg:hidden">
-          <Image src={lightBulb} alt="Codebucks" className="w-full h-auto" />
+          <Image src={lightBulb} alt="Light Bulb" className="w-full h-auto" />
         </div>
       </main>
     </>
