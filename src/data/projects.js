@@ -48,7 +48,7 @@ export const projectsData = [
     title: "Agentic Web Scraper",
     img: agenticScraper,
     summary: "Developed an autonomous web scraping system powered by Agentic AI. The agent iteratively refines its scraping strategies by detecting failures and self-correcting without human intervention.",
-    link: "",
+    link: "https://agentic-scraper-frontend.vercel.app/",
     github: "https://github.com/YashMehta2/Agentic-Scraper-Backend",
     type: "Agentic AI / Backend"
   },
