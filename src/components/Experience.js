@@ -53,6 +53,14 @@ const Experience = () => {
           <ul className="w-full flex flex-col justify-between items-start ml-4">
             <Details
               position="Software Engineer"
+              companyLink="https://orangehousing.com/"
+              company="OrangeHousing.com, LLC"
+              time="June 2026 – Present"
+              address="Syracuse, New York"
+              work=""
+            />
+            <Details
+              position="Software Engineer"
               companyLink="https://professionalstudies.syracuse.edu/academics/iconsult-collaborative-at-syracuse-university/"
               company="iConsult Collaborative at Syracuse University"
               time="March 2025 – May 2026"
