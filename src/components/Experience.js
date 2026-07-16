@@ -70,7 +70,7 @@ const Experience = () => {
             <Details
               position="Software Engineer Intern"
               companyLink="https://www.medlaunchconcepts.com/"
-              company="Medlaunch Concepts"
+              company="Medlaunch Concepts, LLC."
               time="January 2026 – May 2026"
               address="Clearwater, Florida"
               work="Building software solutions for Accreditors and Hospital Systems."
