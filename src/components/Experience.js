@@ -82,7 +82,7 @@ const Experience = () => {
               company="fAIshion Inc."
               time="September 2025 – December 2025"
               address="San Francisco, California"
-              work="Buildling AI system for virtual try-on and recommendation system to make shopping easier."
+              work="Build Embeddable AI shopping agent that delivers product recommendations and styling advice through conversational chat."
             />
             <Details
               position="Frontend Developer Intern, Lead Role"
